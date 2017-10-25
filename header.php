@@ -10,8 +10,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="style.css">
-
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
     </head>
         <div class="container">
             <header>
@@ -19,6 +18,10 @@
                     <div class="logo">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/logopurali.png">
                     </div>
+                    <div class="btn-mobile">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/menu.svg">
+                    </div>
+                    <div class="clearfix"></div>
                     <div class="menu">
                         <nav>
                             <ul>

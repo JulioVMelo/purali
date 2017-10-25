@@ -9,6 +9,8 @@
     License URI: http://creativecommons.org/licenses/by/3.0
 */
 
+/* Start Reset */
+
 *{
     margin: 0;
     padding: 0;
@@ -30,3 +32,75 @@ iframe['style']{
 ul{
 	list-style:none;
 }
+
+/* End Reset */
+
+/* Start Default */
+
+.container{
+    width:100%;
+}
+body{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;    
+}
+.clearfix{
+    clear:both;
+}
+
+/* End Default */
+
+/* Start Header */
+
+header{
+    background-color: #2f3242;
+    font-size:1.6em;
+    color:#ade000;    
+}
+
+header .content {
+    width:90%;
+    margin:0 auto;
+    padding-top:10px;
+}
+
+header .content .logo img{
+    width:130px;
+}
+
+header .content .logo{
+    float: left;
+}
+
+header .content .btn-mobile{
+    float: right;
+}
+
+header .content .btn-mobile img{
+    width:40px;
+}
+
+header nav{
+    margin-bottom:10px;
+}
+
+header .content  .menu{
+    padding-top:15px;
+    text-align: center;
+}
+
+header .content .menu nav ul li{
+    padding-bottom:15px;
+    padding-top:15px;
+    border-bottom:1px solid #b6b6b6;
+    letter-spacing: 2px;
+}
+header .content .menu nav ul li:last-of-type{
+    border-bottom:none;
+}
+
+header .content .social{
+    padding-bottom:30px;
+}
+
+/* End Header */
